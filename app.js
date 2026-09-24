@@ -1,7 +1,7 @@
 const steps=[
   ['z = W<sub>enc</sub> s','Encode what light transport needs','A non-negative linear encoder compresses each spectrum to six channels. Linearity preserves scaling and addition exactly; training makes channel-wise multiplication approximate the corresponding spectral operation.'],
   ['[z₁ z₂ z₃]  /  [z₄ z₅ z₆]','Let the RGB renderer process the code','The six latent channels are split into two RGB triplets. Existing shading and light-transport operations process these triplets in two ordinary passes, without changes inside the renderer.'],
-  ['ŝ = W<sub>dec</sub> z','Recover spectral information','A learned linear decoder combines the six rendered channels into a spectrum, which is then integrated to display colour. Lightweight upsamplers can bring legacy RGB assets into the same latent space.']
+  ['ŝ = W<sub>dec</sub> z','Recover spectral information','A well-trained linear decoder merges the six rendering channels and decodes them, before converting them for colour display. Lightweight upsamplers can bring legacy RGB assets into the same latent space.']
 ];
 const tabs=[...document.querySelectorAll('[data-step]')];
 function selectStep(i){tabs.forEach((button,j)=>{button.setAttribute('aria-selected',j===i);button.tabIndex=j===i?0:-1});document.querySelector('#formula').innerHTML=steps[i][0];document.querySelector('#step-title').textContent=steps[i][1];document.querySelector('#step-copy').textContent=steps[i][2];document.querySelector('#step-panel').setAttribute('aria-labelledby',`step-${i}`)}
