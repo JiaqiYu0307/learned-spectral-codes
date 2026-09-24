@@ -1,0 +1,140 @@
+{
+  "blender": {
+    "source": "C:\\Users\\Jiaqi\\Desktop\\qiqi_PhD\\最终全部结果展示\\DE2K_Source_Data\\Blender\\broad",
+    "new_render": false,
+    "images": {
+      "rgb": {
+        "size": [
+          1080,
+          1080
+        ],
+        "file": "10_RGB_baseline.png"
+      },
+      "gt": {
+        "size": [
+          1080,
+          1080
+        ],
+        "file": "11_JH_GT_preview.png"
+      },
+      "codec": {
+        "size": [
+          1080,
+          1080
+        ],
+        "file": "12_JH_LT_preview.png"
+      },
+      "ours": {
+        "size": [
+          1080,
+          1080
+        ],
+        "file": "13_RGB_LT_preview.png"
+      }
+    },
+    "display_transform": "IEC 61966-2-1 sRGB encoding applied to linear PNG previews"
+  },
+  "maya": {
+    "source": "C:\\Users\\Jiaqi\\Desktop\\qiqi_PhD\\最终全部结果展示\\DE2K_Source_Data\\Maya\\light_0099",
+    "new_render": false,
+    "images": {
+      "rgb": {
+        "size": [
+          960,
+          540
+        ],
+        "file": "10_RGB_baseline.png"
+      },
+      "gt": {
+        "size": [
+          960,
+          540
+        ],
+        "file": "11_JH_GT_preview.png"
+      },
+      "codec": {
+        "size": [
+          960,
+          540
+        ],
+        "file": "12_JH_LT_preview.png"
+      },
+      "ours": {
+        "size": [
+          960,
+          540
+        ],
+        "file": "13_RGB_LT_preview.png"
+      }
+    },
+    "render_attempt": "1920x1080 Arnold batch render failed: no batch render license. Native 960x540 preview retained."
+  },
+  "keyshot": {
+    "source": "C:\\Users\\Jiaqi\\Desktop\\qiqi_PhD\\最终全部结果展示\\DE2K_Source_Data\\KeyShot\\pink_sky",
+    "new_render": false,
+    "images": {
+      "rgb": {
+        "size": [
+          1280,
+          960
+        ],
+        "file": "10_RGB_baseline.png"
+      },
+      "gt": {
+        "size": [
+          1280,
+          960
+        ],
+        "file": "11_JH_GT_preview.png"
+      },
+      "codec": {
+        "size": [
+          1280,
+          960
+        ],
+        "file": "12_JH_LT_preview.png"
+      },
+      "ours": {
+        "size": [
+          1280,
+          960
+        ],
+        "file": "13_RGB_LT_preview.png"
+      }
+    }
+  },
+  "unreal": {
+    "source": "C:\\Users\\Jiaqi\\Desktop\\qiqi_PhD\\最终全部结果展示\\DE2K_Source_Data\\Unreal\\final_metameric_lights_492_352_99",
+    "new_render": false,
+    "images": {
+      "rgb": {
+        "size": [
+          1920,
+          1080
+        ],
+        "file": "10_RGB_baseline.png"
+      },
+      "gt": {
+        "size": [
+          1920,
+          1080
+        ],
+        "file": "11_JH_GT_preview.png"
+      },
+      "codec": {
+        "size": [
+          1920,
+          1080
+        ],
+        "file": "12_JH_LT_preview.png"
+      },
+      "ours": {
+        "size": [
+          1920,
+          1080
+        ],
+        "file": "13_RGB_LT_preview.png"
+      }
+    }
+  }
+}

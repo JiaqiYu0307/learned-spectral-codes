@@ -1,0 +1,3 @@
+# Local source-image archive; production images are copied into assets/.
+renderers_without_instes/
+render_without_instes/

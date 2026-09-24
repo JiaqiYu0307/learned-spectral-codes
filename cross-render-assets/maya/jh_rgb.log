@@ -1,0 +1,73 @@
+System exception: Cannot get temporary directory long path name
+[09/23/26 11:21:47] error    System exception
+[09/23/26 11:21:47] error    System exception
+00:00:00   394MB         | log started Wed Sep 23 11:21:57 2026
+00:00:00   394MB         | Arnold 7.4.3.2 [11a141ff] windows x86_64 clang-20.1.4 oiio-2.6.3 osl-1.13.3 vdb-11.0.0 adlsdk-9.8.2.57 clmhub-3.1.1.43 rlm-17.0.1 optix-8.0.0 2025/09/22 13:12:49
+00:00:00   394MB         | running on Jiaqi4090, pid=6396
+00:00:00   394MB         |  1 x Intel(R) Core(TM) i7-14700KF (28 cores, 28 logical) with 48941MB
+00:00:00   394MB         |  NVIDIA driver version 591.86
+00:00:00   394MB         |  GPU 0: NVIDIA GeForce RTX 4090 @ 2520MHz (compute 8.9) with 24563MB (20635MB available) (NVLink:0)
+00:00:00   394MB         |  Windows 10 (version 10.0, build 26200)
+00:00:00   394MB         |  soft limit for open files changed from 512 to 2048
+00:00:00   394MB         |  
+00:00:00   394MB         | Installing system handler with mask 255
+00:00:01   564MB         | [metadata] loading metadata file: C:\Program Files\Autodesk\Arnold\Maya2026\bin\arnold.mtd
+00:00:01   567MB         | loading plugins from C:\Program Files\Autodesk\Arnold\Maya2026\bin\..\plugins ...
+00:00:01   567MB         |  alembic_proc.dll: alembic uses Arnold 7.4.3.2
+00:00:02   580MB         |  usd_proc.dll: usd uses Arnold 7.4.3.2
+00:00:02   580MB         | loaded 2 plugins from 2 lib(s) in 0:00.70
+Warning: Unrecognized node type for node 'hyperShadePrimaryNodeEditorSavedTabsInfo'; preserving node information during this session.
+Warning: Errors have occurred while reading this scene that may result in data loss.
+File read in  13.9 seconds.
+Exporting Arnold Scene...
+Updating Arnold Scene...
+[mtoa] Rendering Frame: 1 (1/1)  Camera: cameraShape2  Layer: masterLayer
+	C:/Users/Jiaqi/Desktop/qiqi_PhD/siggraph_asia/render-assets/maya/output/jh/rgb.exr
+00:00:12   717MB         | log started Wed Sep 23 11:22:09 2026
+00:00:12   717MB         | Arnold 7.4.3.2 [11a141ff] windows x86_64 clang-20.1.4 oiio-2.6.3 osl-1.13.3 vdb-11.0.0 adlsdk-9.8.2.57 clmhub-3.1.1.43 rlm-17.0.1 optix-8.0.0 2025/09/22 13:12:49
+00:00:12   717MB         | host application: MtoA 5.5.4.2 63623a4a (HEAD) Maya 2026
+00:00:12   717MB         | running on Jiaqi4090, pid=6396
+00:00:12   717MB         |  1 x Intel(R) Core(TM) i7-14700KF (28 cores, 28 logical) with 48941MB
+00:00:12   717MB         |  NVIDIA driver version 591.86
+00:00:12   717MB         |  GPU 0: NVIDIA GeForce RTX 4090 @ 2520MHz (compute 8.9) with 24563MB (20635MB available) (NVLink:0)
+00:00:12   717MB         |  Windows 10 (version 10.0, build 26200)
+00:00:12   717MB         |  soft limit for open files is set at 2048
+00:00:12   717MB         |  
+Warning: WARNING | rendering with watermarks because of failed authorization:
+00:00:12   719MB WARNING | rendering with watermarks because of failed authorization:
+00:00:12   719MB         |  [rlm] error initializing license system:
+00:00:12   719MB         |  [rlm]  * Can't read license data (-102)
+00:00:12   719MB         |  [clm.v1] license server was not set (51)
+00:00:12   719MB         |  [clm.v2] SDK (6): unable to create a session
+00:00:12   719MB         |  environment variables:
+00:00:12   719MB         |         ARNOLD_LICENSE_ORDER   = (not set)
+00:00:12   719MB         |         ARNOLD_LICENSE_MANAGER = (not set)
+00:00:12   719MB         |  [rlm]  solidangle_LICENSE     = (not set)
+00:00:12   719MB         |  [rlm]  RLM_LICENSE            = (not set)
+00:00:12   719MB         |  [clm]  ADSKFLEX_LICENSE_FILE  = (not set)
+00:00:12   719MB         |  [clm]  LM_LICENSE_FILE        = (not set)
+00:00:12   719MB ERROR   | aborting render because this is a batch render and abort_on_license_fail option is enabled
+MAYA_SPECTRAL_ERROR=ERROR   | aborting render because this is a batch render and abort_on_license_fail option is enabled
+
+Traceback (most recent call last):
+  File "C:\Users\Jiaqi\Desktop\qiqi_PhD\siggraph_asia\render-assets\maya\worker.py", line 118, in <module>
+    main()
+  File "C:\Users\Jiaqi\Desktop\qiqi_PhD\siggraph_asia\render-assets\maya\worker.py", line 95, in main
+    cmds.arnoldRender(
+  File "<string>", line 2, in arnoldRender
+RuntimeError: ERROR   | aborting render because this is a batch render and abort_on_license_fail option is enabled
+
+00:00:12   699MB         |   unloading 10 plugins
+00:00:12   699MB         |    closing alembic_proc.dll ...
+00:00:12   699MB         |    closing usd_proc.dll ...
+00:00:12   699MB         |    closing hairPhysicalShader_shaders.dll ...
+00:00:12   699MB         |    closing lookdevkit_shaders.dll ...
+00:00:12   699MB         |    closing mtoa_shaders.dll ...
+00:00:12   699MB         |    closing renderSetup_shaders.dll ...
+00:00:12   699MB         |    closing xgenSpline_shaders.dll ...
+00:00:12   699MB         |    closing mtoa_ParticleVolume_proc.dll ...
+00:00:12   699MB         |    closing xgenSpline_procedural.dll ...
+00:00:12   699MB         |    closing xgen_procedural.dll ...
+00:00:12   699MB         |   unloading plugins done
+00:00:12   699MB         |  Arnold shutdown
+00:00:12   699MB         |  Installing system handler with mask 0

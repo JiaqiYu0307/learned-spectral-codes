@@ -1,0 +1,44 @@
+{
+  "scene": "C:\\Users\\Jiaqi\\Desktop\\qiqi_PhD\\maya_output\\show_scene_LT.mb",
+  "camera": "camera2",
+  "frame": 1,
+  "light_shape": "aiSkyDomeLightShape2",
+  "light_intensity": 1.0,
+  "objects": {
+    "china_vase": {
+      "transform": "antique_ceramic_vase_01",
+      "file_node": "file4",
+      "texture": "C:\\Users\\Jiaqi\\Desktop\\qiqi_PhD\\\u9884\u5904\u7406RGB\u6750\u8d28-\u540e\u5904\u7406\u89e3\u7801\u8f6c\u6362\\Pre_process_tex\\Upsample_methods\\Jiaqi_Method\\Output_tex\\china_vase\\Linear_RGB\\china_vase_LinearRGB.exr"
+    },
+    "brass_vase": {
+      "transform": "brass_vase_02",
+      "file_node": "file8",
+      "texture": "C:\\Users\\Jiaqi\\Desktop\\qiqi_PhD\\\u9884\u5904\u7406RGB\u6750\u8d28-\u540e\u5904\u7406\u89e3\u7801\u8f6c\u6362\\Pre_process_tex\\Upsample_methods\\Jiaqi_Method\\Output_tex\\brass_vase\\Linear_RGB\\brass_vase_LinearRGB.exr"
+    },
+    "painting": {
+      "transform": "fancy_picture_frame_01_canvas",
+      "file_node": "file13",
+      "texture": "C:\\Users\\Jiaqi\\Desktop\\qiqi_PhD\\\u9884\u5904\u7406RGB\u6750\u8d28-\u540e\u5904\u7406\u89e3\u7801\u8f6c\u6362\\Pre_process_tex\\Upsample_methods\\Jiaqi_Method\\Output_tex\\painting\\Linear_RGB\\painting_LinearRGB.exr"
+    },
+    "painting_wood": {
+      "transform": "fancy_picture_frame_01",
+      "file_node": "file14",
+      "texture": "C:\\Users\\Jiaqi\\Desktop\\qiqi_PhD\\\u9884\u5904\u7406RGB\u6750\u8d28-\u540e\u5904\u7406\u89e3\u7801\u8f6c\u6362\\Pre_process_tex\\Upsample_methods\\Jiaqi_Method\\Output_tex\\frame\\Linear_RGB\\frame_LinearRGB.exr"
+    },
+    "sofa": {
+      "transform": "painted_wooden_sofa",
+      "file_node": "file17",
+      "texture": "C:\\Users\\Jiaqi\\Desktop\\qiqi_PhD\\\u9884\u5904\u7406RGB\u6750\u8d28-\u540e\u5904\u7406\u89e3\u7801\u8f6c\u6362\\Pre_process_tex\\Upsample_methods\\Jiaqi_Method\\Output_tex\\sofa\\Linear_RGB\\sofa_LinearRGB.exr"
+    }
+  },
+  "light_rgb": [
+    4.099952697753906,
+    5.174255847930908,
+    3.971214532852173
+  ],
+  "output_prefix": "C:\\Users\\Jiaqi\\Desktop\\qiqi_PhD\\siggraph_asia\\render-assets\\maya\\output\\jh\\rgb",
+  "width": 1920,
+  "height": 1080,
+  "camera_aa_samples": 3,
+  "use_gpu": false
+}
