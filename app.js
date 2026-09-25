@@ -14,9 +14,9 @@ const materials=[
   {key:'sss-hand',format:'png',title:'Heterogeneous volume',detail:'Per-voxel spectral hand',metric:'Mean ΔE₂₀₀₀: 0.93 codec / 4.00 RGB',description:'Spatially varying skin features, including freckles, knuckles and veins, remain distinguishable.'}
 ];
 const narrowband=[
+  {key:'narrowband-425',format:'png',title:'425 nm',detail:'BLUE CELL · FWHM 40 NM',metric:'Mean / p95 ΔE₂₀₀₀ — ours: 1.50 / 3.37 · RGB: 23.78 / 52.31',description:'Gaussian narrowband illumination centred at 425 nm.',spd:'narrowband-425-spd.png'},
   {key:'narrowband-525',format:'png',title:'525 nm',detail:'GREEN CELL · FWHM 40 NM',metric:'Mean / p95 ΔE₂₀₀₀ — ours: 1.17 / 3.04 · RGB: 12.48 / 35.48',description:'Gaussian narrowband illumination centred at 525 nm.',spd:'narrowband-525-spd.png'},
-  {key:'narrowband-625',format:'png',title:'625 nm',detail:'RED CELL · FWHM 40 NM',metric:'Mean / p95 ΔE₂₀₀₀ — ours: 1.08 / 2.42 · RGB: 21.68 / 44.24',description:'Gaussian narrowband illumination centred at 625 nm.',spd:'narrowband-625-spd.png'},
-   {key:'narrowband-450',format:'png',title:'450 nm',detail:'BLUE CELL · FWHM 40 NM',metric:'Mean / p95 ΔE₂₀₀₀ — ours: 2.99 / 5.28 · RGB: 20.01 / 39.58',description:'Gaussian narrowband illumination centred at 450 nm.',spd:'narrowband-450-spd.png'}
+  {key:'narrowband-625',format:'png',title:'625 nm',detail:'RED CELL · FWHM 40 NM',metric:'Mean / p95 ΔE₂₀₀₀ — ours: 1.08 / 2.42 · RGB: 21.68 / 44.24',description:'Gaussian narrowband illumination centred at 625 nm.',spd:'narrowband-625-spd.png'}
 ];
 const engines=[
   {key:'blender',title:'Blender Cycles',detail:'Broadband coloured lights',description:'Open-source path tracing under broadband illumination.'},
